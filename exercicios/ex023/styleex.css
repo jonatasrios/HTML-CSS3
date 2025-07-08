@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'MuchoFiesta';
+    src: url();
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url(MuchoFiesta.ttf);
+:root{
+    --cor0:white;
+    --cor1:rgb(114, 163, 206, 0.952);
+    --cor2:hsl(231, 100%, 40%);
+    --cor3:rgb(117, 50, 117)
+    --cor4:rgba(139, 181, 218, 0.699);
+}
+body{ 
+     background-color: var(--cor1);
+}
+header{
+    background-color: var(--cor1);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+} 
+header > h1{
+    color: white;
+}
+header > p{
+    color: white;
+} 
+main{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, Geneva, Arial, Helvetica, Verdana, sans-serif;
+    max-width: 800px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+}
+img{
+    margin: auto;
+    display: block;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+a{
+    color: hsl(231, 100%, 40%);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(117, 50, 117)
+}
+h1{
+    text-align: left;
+    background-color: rgba(184, 202, 218, 0.425);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#cbjr1{
+    text-align: center;
+    background-color: rgba(139, 181, 218, 0.699);
+}
+main p{
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 10px;
+    text-indent: 20px;
+}
+div.video{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    margin: 0px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

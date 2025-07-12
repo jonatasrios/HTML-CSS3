@@ -7,6 +7,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
         }
         table{
             border-collapse: collapse;
@@ -17,38 +18,74 @@
             padding: 5px;
             border: 1px solid black;;
         }
+        .media{
+            text-align: justify;
+            background-color: rgb(131, 129, 129);
+            color: white;
+        }
+        .media2{
+            background-color: rgb(131, 129, 129);
+            color: white;
+        }
     </style>
 </head>
 <body>
     <table>
         <tr>
-            <th rowspan="2" scope="colgroup">Àrea</th>
-            <th rowspan="2" scope="colgroup">Disciplinas</th>
-            <th colspan="2" scope="colgroup">Notas</th>
-            <th rowspan="2" scope="colgroup">Média</th>
+            <th rowspan="2" scope="colgroup" class="media2">Àrea</th>
+            <th colspan="2" rowspan="2" scope="colgroup" class="media2">Disciplinas</th>
+            <th colspan="2" scope="colgroup" class="media2">Notas</th>
+            <th rowspan="2" scope="colgroup" class="media2">Média</th>
         </tr>
         <tr>
-            <th scope="colgroup">Nota 1</th>
-            <th scope="colgroup">Nota 2</th>
+            <th scope="colgroup" class="media2">Nota 1</th>
+            <th scope="colgroup" class="media2">Nota 2</th>
         </tr>
         <tr>
-            <th rowspan="4" scope="rowgroup">Exatas</th>
-            <td scope="rowgroup">Matematica</td>
-            <td>0.0</td>
-            <td>0.0</td>
-            <td>0.0</td>
-        </tr>
-        <tr>
-            <td>Fisica</td>
+            <th rowspan="3" scope="rowgroup">Exatas</th>
+            <td scope="rowgroup" colspan="2">Matematica</td>
             <td>0.0</td>
             <td>0.0</td>
             <td>0.0</td>
         </tr>
         <tr>
-            <td>Quimica</td>
+            <td scope="rowgroup" colspan="2">Fisica</td>
             <td>0.0</td>
             <td>0.0</td>
             <td>0.0</td>
+        </tr>
+        <tr>
+            <td scope="rowgroup" colspan="2">Quimica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th colspan="5" class="media">Media de Exatas</th>
+            <td class="media">0.0</td>
+        </tr>
+        <tr>
+            <th scope="rowgroup" rowspan="3">Humanas</th>
+            <td scope="rowgroup" colspan="2">Historia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td scope="rowgroup" colspan="2">Geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td scope="rowgroup" colspan="2">Biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th class="media" colspan="5" >Media de Humanas</th>
+            <td class="media">0.0</td>
         </tr>
     </table>
 </body>

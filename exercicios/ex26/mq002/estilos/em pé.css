@@ -1,2 +1,5 @@
 @charset "UTF-8";
 /* Estilo para o elemento em pé */
+body{
+    background-color: yellow;
+}

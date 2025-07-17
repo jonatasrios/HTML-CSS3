@@ -14,7 +14,7 @@ header h1{
     padding: 10px;
     text-align: center;
 }
-#Burguer{
+#buguer{
     background-color: rgb(48, 48, 48);
     display: block;
     color: white;
@@ -23,7 +23,7 @@ header h1{
     margin-bottom: 10px;
     cursor: pointer;
 }
-#Burguer:hover{
+#buguer:hover{
     background-color: rgb(255, 255, 255);
     color: black;
 }

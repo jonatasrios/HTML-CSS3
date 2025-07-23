@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        div.conteiner{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.filho{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div#ca{
+            flex: 1 0 200px;
+        }
+        div#cb{
+            flex: 1 1 150px;
+        }
+        div#cc{
+            flex:1 8 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner"> 
+        <div class="filho" id="ca">A</div>
+        <div class="filho" id="cb">B</div>
+        <div class="filho" id="cc">C</div>
+    </div>
+</body>
+</html>

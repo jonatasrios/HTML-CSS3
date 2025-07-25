@@ -9,9 +9,13 @@
             border: 3px solid blue;
             height: 250px;
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: auto auto auto; 
             gap: 10px;
+            align-items: normal;
+            justify-items: normal;
+            justify-content: normal;
+            align-content: normal;
         }
         div.item{
             border: 3px solid red;
@@ -28,6 +32,7 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
     </div>
 </body>
 </html>
